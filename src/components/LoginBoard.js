@@ -8,8 +8,6 @@ import PropTypes from 'prop-types'
 class LoginBoard extends Component {
 
 
-    
-
     handleChange = (e) => {
         e.preventDefault()
         const selectUser = e.target.value

@@ -16,7 +16,7 @@ export default function users(state = {}, action) {
                 ...state, // we copy the state -> state is coming from above, this is the state of questions (not the whole store state!!)
                 // the user that we want to update
                 [action.user]: { 
-                    ...state[action.user], // le state de l'user
+                    ...state[action.user], // user's state
                     answers: {
                         ...state[action.user].answers,
                         [action.qid] : action.answer

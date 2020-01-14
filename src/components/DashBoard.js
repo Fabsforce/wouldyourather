@@ -92,18 +92,15 @@ function mapStateToProps ({questions,users,authedUser}) {
     // All the question sorted
     const questionIds =   Object.keys(questions)
             .sort((a,b) => questions[b].timestamp - questions[a].timestamp)
-    console.log(questionIds)
     // test if  user has answered every question
     const answeredAllQuestions = Object.values(users)
-                                .some((user) =>  user.id ===authedUser && Object.values(user.answers).length===questionIds.length )
-    console.log(answeredAllQuestions)                            
+                                .some((user) =>  user.id ===authedUser && Object.values(user.answers).length===questionIds.length )                      
     // test if  user has any unAnswered question
     const noAnswered = Object.values(users)
                                 .some((user) =>  user.id ===authedUser && Object.values(user.answers).length===0 )
-    console.log(noAnswered )   
-    
+    // Authed User
     const user = users[authedUser]
-    console.log(user) 
+
 
     return {
         questionIds: questionIds,

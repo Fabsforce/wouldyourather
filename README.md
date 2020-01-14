@@ -20,6 +20,8 @@ The backend API contains 'fixed' results. It means that the backend contains ini
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). You can find more information on how to perform common tasks [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
-## Contributor
+## Purpose
+Some comments have not been removed; there are left there for education purpose, especially to explain some 'complex' javascript code and logic.
 
+## Contributor
 * Fabrice (Fabsforce)
