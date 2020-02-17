@@ -1,5 +1,5 @@
 This application is a WOULD YOU RATHER game.
-Once logegd in, the user could answer question/poll created on his own or by other users.
+Once logged in, the user could answer question/poll created on his own or by other users.
 Immediately after answering a question, the user could see his answer compare to others.
 It's fun because the user could follow the users performance on a Leaderboard. The more you answer and create questions, the higher you get.
 
