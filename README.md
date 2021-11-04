@@ -14,7 +14,7 @@ Install the project dependencies in running in your console :
 `% yarn start`
 
 ## Important
-The backend API contains 'fixed' results. It means that the backend contains initial data, that can be modify while using the app but will eventually get back to the initial state when the user refresh the page. In the future, I plan to add a real backend API.
+The backend API contains 'static' results. It means that the backend contains initial data, that can be modify while using the app but will eventually get back to the initial state when the user refresh the page. In the future, I plan to add a real backend API.
 
 ## Create React App
 
